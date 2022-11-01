@@ -1,0 +1,30 @@
+// contoh checkbox
+Checkbox(
+  value: true,
+  onChanged: (value) {},
+),
+// contoh Switch
+Switch(
+  value: true,
+  onChanged: (value) {},
+),
+
+
+//untuk menambahkan list pada checkbox dapat menggunakan property CheckboxListTile
+CheckboxListTile(
+  title: Text('Belajar Dasar Flutter'),
+  subtitle: Text('Dart, widget, http'),
+  value: true,
+  activeColor: Colors.deepPurpleAccent,
+  onChanged: (value) {},
+),
+
+//untuk menambahkan list pada switch dapat menggunakan property SwitchListTile
+SwitchListTile(
+  title: Text('Backend Programming'),
+  subtitle: Text('Dart, Nodejs, PHP, Java, dll'),
+  value: true,
+  activeTrackColor: Colors.pink[100],
+  activeColor: Colors.red,
+  onChanged: (value) {},
+),
